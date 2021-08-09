@@ -1,0 +1,23 @@
+@import-normalize;
+
+/* img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+} */
+body {
+  background-color: aliceblue;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

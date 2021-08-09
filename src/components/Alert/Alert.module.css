@@ -1,0 +1,18 @@
+.notification {
+  line-height: 1.5;
+  padding: 10px 20px;
+  /* background-color: gray; */
+  /* color: primary-text-color; */
+}
+
+.error {
+  composes: notification;
+  background-color: red;
+  color: white;
+}
+
+.success {
+  composes: notification;
+  background-color: green;
+  color: white;
+}
