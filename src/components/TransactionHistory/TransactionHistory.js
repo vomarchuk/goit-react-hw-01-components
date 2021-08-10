@@ -4,19 +4,19 @@ import s from './TransactionHistory.module.css';
 function TransactionHistory({ items }) {
   return (
     <table className={s.Table}>
-      <thead className={s.HeaderList}>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+      <thead>
+        <tr className={s.HeaderList}>
+          <th className={s.HeaderItem}>Type</th>
+          <th className={s.HeaderItem}>Amount</th>
+          <th className={s.HeaderItem}>Currency</th>
         </tr>
       </thead>
       <tbody>
         {items.map(item => (
-          <tr key={item.id}>
-            <td>{item.type}</td>
-            <td>{item.amount}</td>
-            <td>{item.currency}</td>
+          <tr className={s.ListItem} key={item.id}>
+            <td className={s.Item}>{item.type}</td>
+            <td className={s.Item}>{item.amount}</td>
+            <td className={s.Item}>{item.currency}</td>
           </tr>
         ))}
       </tbody>
