@@ -1,0 +1,11 @@
+.Table {
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block; */
+  /* padding: 0 20px; */
+  background-color: white;
+}
+.HeaderList {
+  background-color: aqua;
+  width: 30%;
+}
