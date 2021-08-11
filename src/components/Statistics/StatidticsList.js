@@ -4,9 +4,9 @@ import s from './Statidtics.module.css';
 
 function Statidtics({ title, stats }) {
   return (
-    <section className={s.Statidtics}>
-      <h2 className={s.Title}>{title}</h2>
-      <ul className={s.List}>
+    <section className={s.statidtics}>
+      <h2 className={s.title}>{title}</h2>
+      <ul className={s.list}>
         {stats.map(item => (
           <li
             key={item.id}

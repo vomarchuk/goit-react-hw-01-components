@@ -4,8 +4,8 @@ import s from './Statidtics.module.css';
 function StatisticsItem({ label, percentage }) {
   return (
     <>
-      <span className={s.Label}>{label}</span>
-      <span className={s.Percentage}>{percentage}%</span>
+      <span className={s.label}>{label}</span>
+      <span className={s.percentage}>{percentage}%</span>
     </>
   );
 }

@@ -4,9 +4,9 @@ import s from './FriendList.module.css';
 
 function FriendList({ friends }) {
   return (
-    <ul className={s.List}>
+    <ul className={s.list}>
       {friends.map(friend => (
-        <li className={s.Item} key={friend.id}>
+        <li className={s.item} key={friend.id}>
           <FriendItem
             status={friend.isOnline}
             avatar={friend.avatar}

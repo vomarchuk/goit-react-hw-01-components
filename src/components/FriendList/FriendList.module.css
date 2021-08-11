@@ -1,18 +1,18 @@
-.List {
+.list {
   width: 30%;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
 }
-.Item {
+.item {
   display: flex;
   padding: 5px 10px;
   align-items: center;
   border: 2px solid #ccc;
   box-shadow: 2px 2px 5px 1px rgb(182, 181, 181);
 }
-.Item:not(:first-child) {
+.item:not(:first-child) {
   margin-top: 15px;
 }
 
@@ -32,7 +32,7 @@
   background-color: rgb(216, 56, 56);
 }
 
-.Avatar {
+.avatar {
   margin-right: 10px;
   width: 50px;
   height: 50px;
@@ -40,6 +40,6 @@
   border-radius: 5px;
 }
 
-.Name {
+.name {
   font-size: 25px;
 }

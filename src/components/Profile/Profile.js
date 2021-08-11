@@ -3,26 +3,26 @@ import PropTypes from 'prop-types';
 
 function Profile({ name, tag, location, avatar, stats }) {
   return (
-    <div className={s.Profile}>
-      <div className={s.Description}>
+    <div className={s.profile}>
+      <div className={s.description}>
         <img src={avatar} alt="Аватар пользователя" className={s.avatar} />
-        <p className={s.Name}>{name}</p>
-        <p className={s.Tag}>@{tag}</p>
-        <p className={s.Location}>{location}</p>
+        <p className={s.name}>{name}</p>
+        <p className={s.tag}>@{tag}</p>
+        <p className={s.location}>{location}</p>
       </div>
 
-      <ul className={s.Stats}>
-        <li className={s.Item}>
-          <span className={s.Label}>Followers</span>
-          <span className={s.Quantity}>{stats.followers}</span>
+      <ul className={s.stats}>
+        <li className={s.item}>
+          <span className={s.label}>Followers</span>
+          <span className={s.quantity}>{stats.followers}</span>
         </li>
-        <li className={s.Item}>
-          <span className={s.Label}>Views</span>
-          <span className={s.Quantity}>{stats.views}</span>
+        <li className={s.item}>
+          <span className={s.label}>Views</span>
+          <span className={s.quantity}>{stats.views}</span>
         </li>
-        <li className={s.Item}>
-          <span className={s.Label}>Likes</span>
-          <span className={s.Quantity}>{stats.likes}</span>
+        <li className={s.item}>
+          <span className={s.label}>Likes</span>
+          <span className={s.quantity}>{stats.likes}</span>
         </li>
       </ul>
     </div>

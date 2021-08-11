@@ -1,4 +1,4 @@
-.Table {
+.table {
   border-radius: 5px 5px 0 0;
   box-shadow: 3px 3px 10px 3px rgba(179, 207, 203, 0.637);
   margin-top: 20px;
@@ -8,7 +8,7 @@
   background-color: #fff;
 }
 
-.HeaderItem {
+.headerItem {
   padding: 15px 0;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -16,17 +16,17 @@
   color: #fff;
   background-color: rgb(53, 199, 243);
 }
-.ListItem {
+.listItem {
   text-align: center;
 }
-.ListItem:nth-child(2n) {
+.listItem:nth-child(2n) {
   background-color: rgba(200, 218, 215, 0.5);
 }
-.Item {
+.item {
   padding: 20px 0;
   text-transform: capitalize;
   color: rgb(105, 99, 99);
 }
-.Item:not(:first-child) {
+.item:not(:first-child) {
   border-left: 1px solid rgba(200, 218, 215, 0.5);
 }

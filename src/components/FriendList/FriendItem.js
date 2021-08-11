@@ -4,8 +4,8 @@ function FriendItem({ avatar, status, name }) {
   return (
     <>
       <span className={status === true ? s.isOnline : s.isOffline}></span>
-      <img className={s.Avatar} src={avatar} alt="avatar" width="48" />
-      <p className={s.Name}>{name}</p>
+      <img className={s.avatar} src={avatar} alt="avatar" width="48" />
+      <p className={s.name}>{name}</p>
     </>
   );
 }
