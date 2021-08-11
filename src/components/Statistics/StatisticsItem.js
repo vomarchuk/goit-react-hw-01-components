@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import s from './Statidtics.module.css';
+import s from './Statistics.module.css';
 function StatisticsItem({ label, percentage }) {
   return (
     <>

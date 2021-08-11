@@ -2,7 +2,7 @@ import 'App.css';
 import Profile from './components/Profile/Profile';
 import user from './components/Profile/user.json';
 
-import Statidtics from './components/Statistics/StatidticsList';
+import Statistics from './components/Statistics/StatisticsList';
 import dataStatistic from './components/Statistics/statistical-data.json';
 
 import FriendList from './components/FriendList/FriendList';
@@ -22,7 +22,7 @@ function App() {
         stats={user.stats}
       />
 
-      <Statidtics title="Upload stats" stats={dataStatistic} />
+      <Statistics title="Upload stats" stats={dataStatistic} />
 
       <FriendList friends={friends} />
 
