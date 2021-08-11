@@ -33,22 +33,22 @@
 }
 
 .docx {
-  composes: Item;
+  composes: item;
   background-color: rgb(185, 255, 127);
 }
 .pdf {
-  composes: Item;
+  composes: item;
   background-color: rgba(203, 71, 255, 0.753);
 }
 .mp3 {
-  composes: Item;
+  composes: item;
   background-color: rgba(199, 5, 5, 0.466);
 }
 .psd {
-  composes: Item;
+  composes: item;
   background-color: rgb(55, 149, 204);
 }
 .none {
-  composes: Item;
+  composes: item;
   background-color: rgba(0, 255, 255, 0.712);
 }

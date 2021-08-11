@@ -35,11 +35,11 @@
   font-weight: 700;
 }
 .tag {
-  composes: Text;
+  composes: text;
   margin-top: 10px;
 }
 .location {
-  composes: Text;
+  composes: text;
   margin-top: 10px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .label {
-  composes: Text;
+  composes: text;
 }
 .quantity {
   font-size: 20px;
